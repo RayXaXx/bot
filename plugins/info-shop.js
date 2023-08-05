@@ -3,7 +3,7 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let text = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯➻❥ *✳️TIENDA-SHOP✨* ➻❥
-│➯ *.busyall te cobra Hades-Coins* 💰
+│➯ *.busyall te cobra RayXaXx-Coins* 💰
 │➯ *.bus <cantidad>* 💎
 │➯ *.buyall te cobra experiencia* 🧿
 │➯ *.buy <cantidad>* 🧿
@@ -32,7 +32,7 @@ let text = `╭「➻❥RɑyXɑXx-BOT➻❥」
 let buttonMessage= {
 'document': { url: `https://github.com/RayXaXx/bot` },
 'mimetype': `application/${document}`,
-'fileName': `⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍`,
+'fileName': `©RɑyXɑXx-BOT`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -45,7 +45,7 @@ let buttonMessage= {
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://youtu.be/4eA5nDxPjOA' }},
+'sourceUrl': '©RɑyXɑXx-BOT' }},
 'caption': text,
 'footer': wm,
 //'buttons':[

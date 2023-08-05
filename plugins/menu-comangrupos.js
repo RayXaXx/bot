@@ -22,7 +22,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
 │➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
-│➯🧿 *Número*➟5212412377467*
+│➯🧿 *Número*➟51902061233*
 │➯📽️ *canal-YouTube*
 │➯🖇️ *https://youtube.com/@hades_bot2391*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*

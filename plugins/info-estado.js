@@ -10,7 +10,6 @@ let str = `╭「❥ *RɑyXɑXx-BOT* ❥」
 │
 │➯🤖 *ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ➟ᴀᴄᴛɪᴠᴏ:* ${uptime}
-│➯🔗 *ᴄᴜᴇɴᴛᴀs ᴏғᴄ:* *https://atom.bio/ofc_yovani_hades*
 ︎╰───────────────╯`.trim() 
 if (m.isGroup) {
 conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}, { quoted: m })    

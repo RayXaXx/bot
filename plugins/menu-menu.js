@@ -23,7 +23,7 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
 │➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
-│➯🧿 *Número*➟5212412377467*
+│➯🧿 *Número*➟51902061233*
 │➯🔗 *ᴄᴜᴇɴᴛᴀs ᴏғᴄ:* 
 │➯🔗 *https://atom.bio/ofc_yovani_hades*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
@@ -36,27 +36,18 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯ *🧿Experiencia:* ${exp}
 │➯ *⚓Rango:* ${role}
 │➯ *💎Diamantes:* ${limit}
-│➯ *🔱Hades-Coins:* ${money}
+│➯ *🔱RayXaXx-Coins:* ${money}
 │➯ *💵dolares:* ${joincount}
 │➯ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥📌 *𝕀ℕ𝔽𝕆 𝔹𝕆𝕋* 📌❥」
-│➯🎙️ *.menu2 notas de audios*
-│➯🪴 *.animes imagenes*
-│➯🍁 *.grupos*
-│➯🫅🏻 *.owner contactos*
-│➯🔞 *.labiblia +18*
 │➯🆙 *.enable comandos para el owner*
-│➯💥 *.instalarbot Hades*
-│➯🏓 *.logos*
 │➯♻️ *.tagall*
-│➯✨ *.sc git hades*
 │➯♻️ *.comangrupos*
 │➯💠 *.infogrupo*
 │➯🛒 *.shop tienda*
 │➯🛒 *.sell tienda*
-│➯📍 *.ip servidor de minecraft*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🌟 *Grupos* 🌟❥」
@@ -85,12 +76,12 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 ╭─「❥ *gana&compara* ❥」
 │➯⛏️ *.minar gana xp*
 │➯⛏️ *.minar2 gana Diamantes*
-│➯⛏️ *.minar3 gana Hades-Coins*
+│➯⛏️ *.minar3 gana RayXaXx-Coins*
 │➯🧿 *.claim reclama tu recompensa diaria exp*
 │➯🎁 *.coffer un cofre de recompensas diarias*
 │➯📃 *.dinero para ver tus diamantes y dinero*
 │➯💎 *puedes comprar diamantes usando los comandos* 
-│➯🔱 *.busyall te cobra Hades-Coins*
+│➯🔱 *.busyall te cobra RayXaXx-Coins*
 │➯🔱 *.bus <cantidad>* 
 │➯🧿 *.buyall te cobra experiencia*
 │➯🧿 *.buy <cantidad>*
@@ -106,91 +97,37 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥👾 *Stickers* 🌴❥」
-│➯👾 *.stiker2 con una imagen o link*
-│➯👾 *.stiker con una imagen o link*
-│➯👾 *.wm paquete | nombre*
-│➯👾 *.sermoverbg imagen sin fondo*
-│➯👾 *.slap*
-│➯👾 *.scircle sticker circular*
-│➯👾 *.pat*
+│➯👾 *.s usalo una imagen*
 │➯👾 *.emojimix ☺&😈*
-│➯👾 *.dados*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🤖 *Reportar* 🤖❥」
 │➯🤖 *.reporte comandos en fallos*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「❥🤣 *Acciones* 😚❥」
-│➯😘 *.kiss .beso <tag>*
-│➯😈 *.follar <tag>*
-╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
 ╭──「❥🎙️ *Descargas* 📽️❥」
-│➯📇 *.wikipedia <busqueda>*
-│➯📇 *.animeinfo <nombre>*
 │➯📇 *.play nombre de tu canción*
-│➯📇 *.play2 nombre de tu video*
-│➯📇 *.play3 nombre de tu canción,doc*
-│➯📇 *.play4 nombre de tu video,doc*
-│➯📇 *.audio nombre de tu canción*
-│➯📇 *.video nombre de tu video*
-│➯📇 *.audiodocu nombre de tu canción,doc*
-│➯📇 *.videodocu nombre de tu video,doc*
-│➯📇 *.ytmp3 tu link  Audio*
-│➯📇 *.ytmp4 tu link  video*
-│➯📇 *.ytmp3doc link canción,doc*
-│➯📇 *.ytmp4doc link video,doc*
 │➯📇 *.facebook tu link de fb*
 │➯📇 *.tiktok link de video tiktok*
-│➯📇 *.mediafire link de mediafire*
-│➯📇 *.twitter tu link de twt*
-│➯📇 *.ig link de tu video en ig*
-│➯📇 *.google resultados de google*
-│➯📇 *.ytbuscar busqueda en Youtube*
-│➯📇 *.gdrive link de drive*
-│➯📇 *.whatmusic responde a una audio*
 │➯📇 *.calculadora Ejemplo : .calc 2+2*
 │➯📇 *.ssweb link de tu img*
 │➯📇 *.tts audio google*
-│➯📇 *.quemusica resultado*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭──「❥🗣️ *chatgpt* 📃❥」
 │➯👥 *.simi pregunta simi*
-│➯👥 *.bot pergunta*
+│➯👥 *.ia2 crea imagenes*
 │➯👥 *.ia chatgpt*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🎮 *Juegos* 🎮❥」
-│➯🎮 *.love medidor de amor*
-│➯🎮 *.gay2 porcentaje*
-│➯🎮 *.puta porcentaje*
-│➯🎮 *.puto porcentaje*
-│➯🎮 *.pajero porcentaje*
-│➯🎮 *.pajera porcentaje*
-│➯🎮 *.lesbiana porcentaje*
-│➯🎮 *.pvp*
-│➯🎮 *.sopa*
+│➯🎮 *.ttt juego michi
 │➯🎮 *.juego piedra/papel/tijera*
-│➯🎮 *.reto reto del bot*
 │➯🎮 *.acertijo*
-│➯🎮 *.verdad verdad del bot*
-│➯🎮 *.formarpareja parejas ramdon*
-│➯🎮 *.slot ruleta*
-│➯🎮 *.piropo piropo del bot*
-│➯🎮 *.casino <apuesta>*
-│➯🎮 *.meme <meme>*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🧿 *nivel* 🧿❥」
 │➯🧿 *.levelup subir de nivel*
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「❥🤖 *Jadibot* 🤖❥」
-│➯🤖 *.serbot*
-│➯🤖 *.deleteserbot borra tu sesión antigua*
-│➯🤖 *.stop para dejar de serbot*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🤴 *comandos-owner* 🤴❥」
@@ -199,8 +136,6 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯👁️‍🗨️ *.blocklist*
 │➯👁️‍🗨️ *.unblocklist*
 │➯👁️‍🗨️ *.banuser*
-│➯👁️‍🗨️ *.setprefix*
-│➯👁️‍🗨️ *.resetprefix*
 │➯👁️‍🗨️ *.unbanuser*
 │➯👁️‍🗨️ *.kick*
 │➯👁️‍🗨️ *.fantasmas*
@@ -218,74 +153,15 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 ╭─「❥🎙️ *convertidor&mp3* 📽️❥」
 │➯🎙️ *.mp3*
 │➯🎙️ *.toimg*
-│➯🎙️ *.togifaus*
-│➯🎙️ *.ptt*
 │➯🎙️ *.tomp4*
-│➯🎙️ *.tts*
-│➯🎙️ *.attp3*
-│➯🎙️ *.ttp*
-│➯🎙️ *.ttp2*
-│➯🎙️ *.ttp3*
-│➯🎙️ *.ttp5*
+│➯🎙️ *.tts* es hola
 │➯🎙️ *.tovn*
-│➯🎙️ *.togifaud*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥📊 *Otros Comandos* ⚙️❥」
-│➯📊 *.hd <imagen>*
 │➯📊 *.topdf*
-│➯📊 *.ytcomment*
-│➯📊 *.removebg*
-│➯📊 *.wpgaming*
-│➯📊 *.doraemon*
-│➯📊 *.planeta*
-│➯📊 *.technology*
-│➯📊 *.ciberespacio*
-│➯📊 *.caricatura*
-│➯📊 *.pubg*
-│➯📊 *.wprandom*
-│➯📊 *.styletext
 │➯📊 *.afk*
-│➯📊 *.lb*
 │➯📊 *.perfil*
-│➯📊 *.clima*
-│➯📊 *.covid*
-│➯📊 *.horario*
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「❥🧨 *Logos* 🧧❥」
-│➯🧨 *.blackpink <texto>*
-│➯🧨 *.bloodfrosted <texto>*
-│➯🧨 *.bokelog <texto>*
-│➯🧨 *.box3d <texto>*
-│➯🧨 *.breakwall  <texto>*
-│➯🧨 *.cloud <texto>*
-│➯🧨 *.deluxesilver <texto>*
-│➯🧨 *.futureneon <texto>*
-│➯🧨 *.halloween <texto>*
-│➯🧨 *.icecold <texto>*
-│➯🧨 *.impressiveglitch <texto>*
-│➯🧨 *.jokerlogo <texto>*
-│➯🧨 *.logolol <texto>*
-│➯🧨 *.luxurylog <texto>*
-│➯🧨 *.holographic <texto>*
-│➯🧨 *.magma <texto>*
-│➯🧨 *.metaldark <texto>*
-│➯🧨 *.minion <texto>*
-│➯🧨 *.natureleaves <texto>*
-│➯🧨 *.neon <texto>*
-│➯🧨 *.neonlight <texto>*
-│➯🧨 *.newyearcard <texto>*
-│➯🧨 *.roadwarning <texto>*
-│➯🧨 *.sandengraved <texto>*
-│➯🧨 *.sandsummer <texto>*
-│➯🧨 *.sparkle <texto>*
-│➯🧨 *.strawberry <texto>*
-│➯🧨 *.text1917 <texto>*
-│➯🧨 *.thunder <texto>*
-│➯🧨 *.toxic <texto>*
-│➯🧨 *.watercolor <texto>*
-│➯🧨 *.wonderfulgraffiti <texto>*
 ╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

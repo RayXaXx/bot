@@ -20,7 +20,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯ *✳️️Nivel:* ${level}
 │➯ *🧿Experiencia:* ${exp}
 │➯ *💎Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
-│➯ *👾Hades-Coins:* ${money}
+│➯ *👾RayXaXx-Coins:* ${money}
 │➯ *💵dolares:* ${joincount}
 │➯ *💥𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝙳𝙾:* ${registered ? 'Si': 'No'}
 │➯ *✔️𝙿𝚁𝙴𝙼𝙸𝚄𝙼:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
