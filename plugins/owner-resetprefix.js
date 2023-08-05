@@ -8,6 +8,6 @@ handler.help = ['resetprefix']
 handler.tags = ['owner']
 handler.command = /^(resetprefix)$/i
 handler.rowner = true
-handler.register = true
+handler.register = false
 
 export default handler

@@ -9,7 +9,7 @@ let isClose = { // Switch Case Like :v
 }[(args[0] || '')]
 if (isClose === undefined)
 throw `------------------------------------------------------------------------------------------------------------
-𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
+RɑyXɑXx-BOT
 *[❗] 𝙵𝙾𝚁𝙼𝙰𝚃𝙾 𝙴𝚁𝚁𝙾𝙽𝙴𝙾!!*
 ✨𝙴𝙹𝙴𝙼𝙿𝙻𝙾✨ 
 ${usedPrefix + command} abrir*
@@ -17,7 +17,7 @@ ${usedPrefix + command} cerrar*
 
 ------------------------------------------------------------------------------------------------------------
 
-𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰
+RɑyXɑXx-BOT
 *[❗]WRONG FORMAT!!*
 *✨EXAMPLE✨*
 ${usedPrefix + command} *open*
@@ -31,5 +31,5 @@ handler.tags = ['group']
 handler.command = /^(group|grupo)$/i
 handler.admin = true
 handler.botAdmin = true
-handler.register = true
+handler.register = false
 export default handler

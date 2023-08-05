@@ -10,5 +10,5 @@ let anu = await fetch(`https://api.lolhuman.xyz/api/read-qr?apikey=${lolkeysapi}
 let json = await anu.json()
 await m.reply(`*El Texto del Codigo QR Es:* ${json.result}`)}
 handler.command = /^(readqr)$/i
-handler.register = true
+handler.register = false
 export default handler

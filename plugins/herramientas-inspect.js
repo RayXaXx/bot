@@ -13,7 +13,7 @@ let handler = async (m, { conn, text }) => {
 	//m.reply(txt)
 }
 handler.command = /^(inspect)$/i
-handler.register = true
+handler.register = false
 export default handler
 
 const extractGroupMetadata = (result) => {

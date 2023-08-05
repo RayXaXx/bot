@@ -10,5 +10,5 @@ conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 
 }
 return !0
 }
-handler.register = true
+handler.register = false
 export default handler

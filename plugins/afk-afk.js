@@ -7,5 +7,5 @@ m.reply(`*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸𝙾 ${conn.
 handler.help = ['afk [alasan]']
 handler.tags = ['main']
 handler.command = /^afk$/i
-handler.register = true
+handler.register = false
 export default handler

@@ -8,5 +8,5 @@ handler.help = ['setprefix'].map(v => v + ' [prefix]')
 handler.tags = ['owner']
 handler.command = /^(setprefix)$/i
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler 

@@ -6,5 +6,5 @@ await m.reply( '(💥) AQUÍ TIENES LA LISTA DE SUBBOTS SI QUIERES QUE UNO DE EL
 await m.reply(replyMessage.trim())}
 handler.command = handler.help = ['listjadibot','bots','subsbots']
 handler.tags = ['jadibot']
-handler.register = true
+handler.register = false
 export default handler

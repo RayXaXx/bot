@@ -34,7 +34,7 @@ conn.reply(m.chat, fraseChat, m)
 }}}
 handler.tags = ['frases']
 handler.command = handler.help = ['consejo', 'fraseromantica', 'historiaromantica']
-handler.register = true
+handler.register = false
 export default handler
 async function cerpen(category) {
 return new Promise((resolve, reject) => {

@@ -8,5 +8,5 @@ await conn.sendFile(m.chat, tiores.data, null, null, m)
 throw `*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`
 }}
 handler.command = ['dall-e', 'dalle', 'ia2', 'cimg', 'openai3']
-handler.register = true
+handler.register = false
 export default handler

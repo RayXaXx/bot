@@ -10,7 +10,7 @@ let texto = `*[❗] @${m.sender.split`@`[0]} 𝙰𝙶𝚄𝙰𝚁𝙳𝙴 𝚄�
 //let buttons = [{ buttonText: { displayText: '♫ 𝙰𝚄𝙳𝙸𝙾 ♫' }, buttonId: `${usedPrefix}tomp3` }]
 try {
 let aa = { quoted: m, userJid: conn.user.jid }
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/RayXaXx/bot' }, mentionedJid: [m.sender]}}}, aa)    
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: '©RɑyXɑXx-BOT', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/RayXaXx/bot' }, mentionedJid: [m.sender]}}}, aa)    
 await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })    
 const dataF = await tiktok.v1(args[0])
 //let desc1 =  `*𝙽𝙸𝙲𝙺𝙽𝙰𝙼𝙴:* ${dataF.nickname || 'Indefinido'}`
@@ -39,7 +39,7 @@ await conn.sendMessage(m.chat, { video: { url: url}, caption: cap }, { quoted: m
 throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝙻𝙰𝙼𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n\n*[❗𝐈𝐍𝐅𝐎❗]SORRY AN ERROR OCCURRED DOWNLOADING YOUR VIDEO PLEASE TRY AGAIN*`
 }}}}}
 handler.command = /^(tiktok|ttdl|tiktokdl|tiktoknowm|tt|ttnowm|tiktokaudio)$/i
-handler.register = true
+handler.register = false
 handler.limit = 4
 export default handler
 

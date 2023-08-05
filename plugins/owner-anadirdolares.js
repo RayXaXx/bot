@@ -22,5 +22,5 @@ m.reply(`≡ *💵 𝙰𝙽̃𝙰𝙳𝙸𝙳𝙾*
 }
 handler.command = ['añadirdolares','dardolares'] 
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

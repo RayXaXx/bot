@@ -5,7 +5,7 @@ throw false
 }
 let pesan = args.join` `
 let oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`
-let teks = `𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰\n------------------------------------------------------------------------------------------------------------\n${oi}\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`
+let teks = `RɑyXɑXx-BOT\n------------------------------------------------------------------------------------------------------------\n${oi}\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`
 for (let mem of participants) {
 teks += `➯@${mem.id.split('@')[0]}\n`}
 teks += `------------------------------------------------------------------------------------------------------------`
@@ -16,5 +16,5 @@ handler.tags = ['group']
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
 handler.admin = true
 handler.group = true
-handler.register = true
+handler.register = false
 export default handler

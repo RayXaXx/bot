@@ -15,7 +15,7 @@ handler.help = ['minar2']
 handler.tags = ['diamantes']
 handler.command = ['minar2', 'miming3', 'mine3', 'minardiamantes', 'minargemas', 'minardiamante'] 
 handler.fail = null
-handler.register = true
+handler.register = false
 handler.exp = 0
 export default handler
 

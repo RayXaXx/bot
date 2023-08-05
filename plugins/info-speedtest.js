@@ -17,5 +17,5 @@ let handler = async (m) => {
 handler.help = ['speedtest']
 handler.tags = ['info']
 handler.command = /^(speedtest?|test?speed)$/i
-handler.register = true
+handler.register = false
 export default handler

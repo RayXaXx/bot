@@ -5,7 +5,7 @@ let img = await(await fetch('https://github.com/RayXaXx.png')).buffer()
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「❥ *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰* ❥」
+let str = `╭「❥ *RɑyXɑXx-BOT* ❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
 │
 │➯🤖 *ʙᴏᴛ ᴅᴇ ᴜsᴏ ᴘᴜʙʟɪᴄᴏ*
@@ -22,7 +22,7 @@ conn.sendMessage(m.chat, { image: pp, caption: str.trim(), mentions: [...str.mat
 handler.help = ['estado']
 handler.tags = ['main']
 handler.command = /^(infobot|estado|status|estate|state|stado|stats|runtime|uptime)$/i
-handler.register = true
+handler.register = false
 export default handler
 function clockString(ms) {
 let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)

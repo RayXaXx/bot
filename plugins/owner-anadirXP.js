@@ -22,5 +22,5 @@ users[who].exp += xp
 }
 handler.command = ['añadirxp','addexp'] 
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

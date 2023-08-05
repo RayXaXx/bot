@@ -13,5 +13,5 @@ await conn.sendButton(m.chat, caption, wm, imagewarn, [['𝐌 𝐄 𝐍 𝐔 �
 handler.command = /^(listwarn)$/i 
 handler.group = true
 handler.admin = true
-handler.register = true
+handler.register = false
 export default handler

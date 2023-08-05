@@ -9,5 +9,5 @@ handler.command = /^(kick|echar|hechar|sacar)$/i
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
-handler.register = true
+handler.register = false
 export default handler

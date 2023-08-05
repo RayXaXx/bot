@@ -17,5 +17,5 @@ if (stderr.trim()) m.reply(stderr)
 }}
 handler.customPrefix = /^[$]/
 handler.command = new RegExp
-handler.register = true
+handler.register = false
 export default handler

@@ -6,5 +6,5 @@ handler.help = ['unbanchat']
 handler.tags = ['owner']
 handler.command = /^unbanchat$/i
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

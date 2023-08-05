@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let text = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯➻❥ *✳️TIENDA-SHOP✨* ➻❥
 │➯ *.busyall te cobra Hades-Coins* 💰
 │➯ *.bus <cantidad>* 💎
@@ -10,7 +10,7 @@ let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰�
 │➯ *.dolares te cobra diamantes*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯➻❥ *✳️TIENDA-ᴘʀᴇᴍɪᴜᴍ✨* ➻❥
 │➯ ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓵ᴘᴀss»⓵» /prem1 15 *dolares💵* 
 │➯ 🌀ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓶ᴘᴀss»⓶» /prem2 25 *dolares💵*
@@ -57,5 +57,5 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
 handler.command = /^(shop|Shop|sell|Sell)$/i
-handler.register = true
+handler.register = false
 export default handler

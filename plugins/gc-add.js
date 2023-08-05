@@ -34,5 +34,5 @@ handler.help = ['add', '+'].map(v => v + ' número')
 handler.tags = ['group']
 handler.command = /^(add|agregar|añadir|\+)$/i
 handler.admin = handler.group = handler.botAdmin = true
-handler.register = true
+handler.register = false
 export default handler

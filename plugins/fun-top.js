@@ -36,7 +36,7 @@ type: 'audioMessage',
 ptt: true })}
 handler.help = handler.command = ['top']
 handler.tags = ['fun']
-handler.register = true
+handler.register = false
 handler.group = true
 export default handler
 function pickRandom(list) {

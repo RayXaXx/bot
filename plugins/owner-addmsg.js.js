@@ -12,5 +12,5 @@ handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'add' 
 handler.tags = ['database']
 handler.command = /^agregar(vn|msg|video|audio|img|sticker)$/
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

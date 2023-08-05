@@ -16,7 +16,7 @@ handler.tags = ['hades']
 handler.command = ['minar3', 'miming3', 'mine3', 'minarhadescoins', 'minarcoins', 'minarhades'] 
 handler.fail = null
 handler.exp = 0
-handler.register = true
+handler.register = false
 export default handler
 
 function msToTime(duration) {

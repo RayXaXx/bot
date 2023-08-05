@@ -10,5 +10,5 @@ handler.help = ['vn', 'msg', 'video', 'audio', 'img', 'sticker'].map(v => 'del' 
 handler.tags = ['database']
 handler.command = /^eliminar(vn|msg|video|audio|img|sticker)$/
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

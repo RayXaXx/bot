@@ -442,5 +442,5 @@ conn.sendMessage(m.chat, { text: `🧿 OPTION: ${type}\n️🔮 STATUS: ${isEnab
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i
-handler.register = true
+handler.register = false
 export default handler

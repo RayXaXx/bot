@@ -23,5 +23,5 @@ await m.reply('*Traducción:* ' + result2)
 await m.reply('*[❗𝐈𝐍𝐅𝐎❗] ERROR, VUELVA A INTENTARLO*')    
 }}}
 handler.command = /^(translate|traducir|trad)$/i
-handler.register = true
+handler.register = false
 export default handler

@@ -10,6 +10,6 @@ conn.sendFile(m.chat, link, 'error.jpg', `🔎 *𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳
 handler.help = ['gimage <query>', 'imagen <query>']
 handler.tags = ['internet', 'tools']
 handler.command = /^(gimage|image|imagen)$/i
-handler.register = true
+handler.register = false
 handler.limit = 2
 export default handler

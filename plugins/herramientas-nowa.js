@@ -16,7 +16,7 @@ let txt = 'Registrados\n\n' + array.filter(v => v.exists).map(v => `• Nro: wa.
 m.reply(txt)
 }
 handler.command = /^nowa$/i
-handler.register = true
+handler.register = false
 export default handler
 function formatDate(n, locale = 'id') {
 let d = new Date(n)

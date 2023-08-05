@@ -78,5 +78,5 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 };
 handler.command = ['openai', 'chatgpt', 'ia', 'robot', 'openai2', 'chatgpt2', 'ia2', 'robot2', 'Hades', 'HadesBot'];
 handler.limit = 1
-handler.register = true
+handler.register = false
 export default handler;

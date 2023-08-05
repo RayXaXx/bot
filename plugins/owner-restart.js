@@ -12,5 +12,5 @@ handler.tags = ['owner']
 handler.command = /^(res(tart)?)$/i
 
 handler.rowner = true
-handler.register = true
+handler.register = false
 export default handler

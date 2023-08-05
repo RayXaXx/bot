@@ -6,5 +6,5 @@ delete conn.game[room.id]
 await m.reply('*[ ✔ ] 𝚂𝙴 𝙴𝙻𝙸𝙼𝙸𝙽𝙾 𝙻𝙰 𝚂𝙰𝙻𝙰 𝙳𝙴 𝙹𝚄𝙴𝙶𝙾 𝙳𝙴 𝚃𝚁𝙴𝚂 𝙴𝙽 𝚁𝙰𝚈𝙰*')}
 handler.command = /^(delttt|deltt|delxo|deltictactoe)$/i
 handler.fail = null
-handler.register = true
+handler.register = false
 export default handler

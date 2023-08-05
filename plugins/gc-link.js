@@ -13,5 +13,5 @@ handler.tags = ['group']
 handler.command = /^link(gro?up)?$/i
 handler.group = true
 handler.botAdmin = true
-handler.register = true
+handler.register = false
 export default handler

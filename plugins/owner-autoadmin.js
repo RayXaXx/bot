@@ -8,6 +8,6 @@ await m.reply('*[❗] 𝙴𝚁𝚁𝙾𝚁, 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂�
 handler.command = /^autoadmin$/i
 handler.rowner = true
 handler.group = true
-handler.register = true
+handler.register = false
 handler.botAdmin = true
 export default handler

@@ -51,5 +51,5 @@ conn.reply(m.chat, `*🕹 𝐓𝐑𝐄𝐒 𝐄𝐍 𝐑𝐀𝐘𝐀 🎮*\n\n*�
 conn.game[room.id] = room
 }}
 handler.command = /^(tictactoe|ttc|ttt|xo)$/i
-handler.register = true
+handler.register = false
 export default handler

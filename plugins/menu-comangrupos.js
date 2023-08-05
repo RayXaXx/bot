@@ -19,7 +19,7 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
 │➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
 │➯🧿 *Número*➟5212412377467*
@@ -80,7 +80,7 @@ conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸
 handler.command = /^(comangrupos|Comangrupos)$/i
 handler.exp = 50
 handler.fail = null
-handler.register = true
+handler.register = false
 export default handler
 function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)

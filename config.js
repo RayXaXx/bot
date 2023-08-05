@@ -12,8 +12,8 @@ global.mods = []
 global.prems = ['5212412474767'], 
 global.prems = ['5212412377467'],
 
-global.packname = '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'
-global.author = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍'
+global.packname = '©RɑyXɑXx-BOT'
+global.author = '©RɑyXɑXx'
 global.vs = '1.10.90'
 global.version = vs
 global.gt = '⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍'
@@ -45,8 +45,8 @@ global.envio = eeg
 global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
 global.exito = eg
 
-global.wm = '©ᴏғᴄ-ʏᴏᴠᴀɴɪ﹏✍\n⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'
-global.igfg = '⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍'
+global.wm = '©RɑyXɑXx\n©RɑyXɑXx-BOT'
+global.igfg = '©RɑyXɑXx-BOT'
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱'
 
 global.imagen1 = fs.readFileSync('./views/Menu.jpg')

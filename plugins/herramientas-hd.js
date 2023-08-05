@@ -24,5 +24,5 @@ delete conn.unblur_high[m.sender]
 handler.help = ["remini", "hd", "enhance"]
 handler.tags = ["ai", "tools"]
 handler.command = ["remini", "hd", "enhance"]
-handler.register = true
+handler.register = false
 export default handler

@@ -51,5 +51,5 @@ Zona horaria del servidor actual:\n[ ${Intl.DateTimeFormat().resolvedOptions().t
 handler.help = ['horario']
 handler.tags = ['info']
 handler.command = /^(horario)$/i
-handler.register = true
+handler.register = false
 export default handler

@@ -54,6 +54,6 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
   }
 };
 handler.command = /^(instagramdl|instagram|igdl|ig|instagramdl2|instagram2|igdl2|ig2|instagramdl3|instagram3|igdl3|ig3)$/i;
-handler.register = true;
+handler.register = false;
 handler.limit = 2
 export default handler;

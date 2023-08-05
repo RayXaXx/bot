@@ -30,5 +30,5 @@ break
 handler.command = /^(listanum|kicknum)$/i
 handler.group = handler.botAdmin = handler.admin = true
 handler.fail = null
-handler.register = true
+handler.register = false
 export default handler

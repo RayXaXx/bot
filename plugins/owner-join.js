@@ -17,6 +17,6 @@ await m.reply('*[[❗𝐈𝐍𝐅𝐎❗] SE HA MANDADO LA SOLICITUD AL PROPIETA
 handler.help = ['join [chat.whatsapp.com]']
 handler.tags = ['premium']
 handler.command = /^join|nuevogrupo$/i
-handler.register = true
+handler.register = false
 handler.limit = 2
 export default handler

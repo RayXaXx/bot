@@ -8,7 +8,7 @@ let usersExp = sortedExp.map(enumGetKey)
 let usersLim = sortedLim.map(enumGetKey)
 let usersLevel = sortedLevel.map(enumGetKey)
 let len = args[0] && args[0].length > 0 ? Math.min(100, Math.max(parseInt(args[0]), 5)) : Math.min(5, sortedExp.length)
-let text = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+let text = `╭「➻❥RɑyXɑXx-BOT➻❥」
 *< TABLA DE CLASIFICACION />*
 ╰───────────────╯
 ╭「➻❥ *TOP ${len} XP* ➻❥」
@@ -33,7 +33,7 @@ handler.command = ['leaderboard', 'lb']
 
 handler.fail = null
 handler.exp = 0
-handler.register = true
+handler.register = false
 export default handler
 
 function sort(property, ascending = true) {

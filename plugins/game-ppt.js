@@ -65,5 +65,5 @@ global.db.data.users[m.sender].wait = new Date * 1
 handler.help = ['ppt']
 handler.tags = ['games']
 handler.command = /^(ppt)$/i
-handler.register = true
+handler.register = false
 export default handler

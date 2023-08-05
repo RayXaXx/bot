@@ -7,7 +7,7 @@ handler.help = ['style'].map(v => v + ' <text>')
 handler.tags = ['tools']
 handler.command = /^(style(text)?)$/i
 handler.exp = 0
-handler.register = true
+handler.register = false
 export default handler
 
 async function stylizeText(text) {

@@ -5,6 +5,6 @@ m.reply('*│‼️│ 🗝️𝚎𝚜𝚝𝚎 𝚌𝚑𝚊𝚝 𝚋𝚊𝚗𝚎
 handler.help = ['banchat']
 handler.tags = ['owner']
 handler.command = /^banchat$/i
-handler.register = true
+handler.register = false
 handler.rowner = true
 export default handler
