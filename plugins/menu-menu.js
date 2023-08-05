@@ -22,10 +22,8 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
+│➯🌴 *ᴏᴡɴᴇʀ:©RɑyXɑXx*
 │➯🧿 *Número*➟51902061233*
-│➯🔗 *ᴄᴜᴇɴᴛᴀs ᴏғᴄ:* 
-│➯🔗 *https://atom.bio/ofc_yovani_hades*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
 │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
@@ -44,27 +42,25 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 ╭─「❥📌 *𝕀ℕ𝔽𝕆 𝔹𝕆𝕋* 📌❥」
 │➯🆙 *.enable comandos para el owner*
 │➯♻️ *.tagall*
-│➯♻️ *.comangrupos*
-│➯💠 *.infogrupo*
-│➯🛒 *.shop tienda*
-│➯🛒 *.sell tienda*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🌟 *Grupos* 🌟❥」
-│➯ *.welcome @tag*
 │➯📌 *.welcome @tag*
 │➯📌 *bye @tag*
-│➯📌 *.promote @tag*
-│➯📌 *.demote @tag*
-│➯📌 *.infogp <info del grupo>*
 │➯📌 *.infobot <estado del bot>*
 │➯📌 *.hidetag*
 │➯📌 *.delete elimina mensajes del bot*
 │➯📌 *.del*
-│➯📌 *.join*
 │➯📌 *.link link de tu grupo*
 │➯📌 *.advertir*
 │➯📌 *.unwarn*
+│➯📌 *.listanum 52*
+│➯📌 *.kicknum 52*
+│➯📌 *.listwarn*
+│➯📌 *.tagall*
+│➯📌 *.warn*
+│➯📌 *.grupo abrir/cerrar*
+│➯📌 *.nowa 5190206123x*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥💎 *transfer* 💎❥」
@@ -85,6 +81,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯🔱 *.bus <cantidad>* 
 │➯🧿 *.buyall te cobra experiencia*
 │➯🧿 *.buy <cantidad>*
+│➯📃 *.perfil*
 │➯💵 *.dolares te cobra diamantes*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
@@ -93,31 +90,28 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯💎 *.añadirdiamantes @tag <cantidad>*
 │➯🔱 *.añadirdolares  @tag <cantidad>*
 │➯💵 *.añadirdolares @tag <cantidad>*
-│➯✅ *.addprem @tag days*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥👾 *Stickers* 🌴❥」
-│➯👾 *.s usalo una imagen*
+│➯👾 *.s usalo con una imagen*
 │➯👾 *.emojimix ☺&😈*
-╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「❥🤖 *Reportar* 🤖❥」
-│➯🤖 *.reporte comandos en fallos*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭──「❥🎙️ *Descargas* 📽️❥」
 │➯📇 *.play nombre de tu canción*
 │➯📇 *.facebook tu link de fb*
+│➯📇 *.ig link de video instagram*
 │➯📇 *.tiktok link de video tiktok*
 │➯📇 *.calculadora Ejemplo : .calc 2+2*
 │➯📇 *.ssweb link de tu img*
 │➯📇 *.tts audio google*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
-╭──「❥🗣️ *chatgpt* 📃❥」
-│➯👥 *.simi pregunta simi*
+╭──「❥🗣️ *ia rayXaXx* 📃❥」
+│➯👥 *.simi texto*
+│➯👥 *.bot texto*
 │➯👥 *.ia2 crea imagenes*
-│➯👥 *.ia chatgpt*
+│➯👥 *.ia texto*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🎮 *Juegos* 🎮❥」
@@ -132,6 +126,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🤴 *comandos-owner* 🤴❥」
 │➯👁️‍🗨️ *.block*
+│➯👁️‍🗨️ *.infinito*
 │➯👁️‍🗨️ *.limpiarbot*
 │➯👁️‍🗨️ *.blocklist*
 │➯👁️‍🗨️ *.unblocklist*
@@ -156,12 +151,12 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯🎙️ *.tomp4*
 │➯🎙️ *.tts* es hola
 │➯🎙️ *.tovn*
+│➯🎙️ *.qrcode*
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥📊 *Otros Comandos* ⚙️❥」
 │➯📊 *.topdf*
 │➯📊 *.afk*
-│➯📊 *.perfil*
 ╰───────────────╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})

@@ -10,9 +10,9 @@ let handler = async (m, { conn, command, args }) => {
 │🛒 *NOTA DE PAGO* 
 │┈┈┈┈┈┈┈┈┈┈┈┈┈
 │➯‣ *Compra nominal* : + ${count}💎 
-│➯‣ *Gastado* : -${xpperlimit * count} ʜᴀᴅᴇs-ᴄᴏɪɴs
+│➯‣ *Gastado* : -${xpperlimit * count} RayXaXx-ᴄᴏɪɴs
 ╰───────────────╯`, m)
-  } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *ʜᴀᴅᴇs-ᴄᴏɪɴs* para comprar *${count}* Diamantes💎`, m)
+  } else conn.reply(m.chat, `❎ Lo siento, no tienes suficientes *RayXaXx-ᴄᴏɪɴs* para comprar *${count}* Diamantes💎`, m)
 }
 handler.help = ['bus', 'busyall']
 handler.tags = ['money']

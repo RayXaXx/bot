@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let pp = imagen6
 //let vn = './Plugins/Audios/menu.mp3'
-let img = await(await fetch('https://i.imgur.com/JP52fdP.jpg')).buffer()
+let img = await(await fetch('https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -21,10 +21,8 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
+│➯🌴 *ᴏᴡɴᴇʀ:©RɑyXɑXx*
 │➯🧿 *Número*➟51902061233*
-│➯📽️ *canal-YouTube*
-│➯🖇️ *https://youtube.com/@hades_bot2391*
 │➯📅 *ғᴇᴄʜᴀ:➟${date}*
 │➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
 │➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
@@ -53,14 +51,8 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯🔩 */disable detect*
 │➯🔩 */enable detect2*
 │➯🔩 */disable detect2*
-│➯🔩 */enable autosticker*
-│➯🔩 */disable autosticker*
-│➯🔩 */enable antiviewonce*
-│➯🔩 */disable antiviewonce*
 │➯🔩 */enable antitoxic*
 │➯🔩 */disable antitoxic*
-│➯🔩 */enable antitraba*
-│➯🔩 */disable antitraba*
 │➯🔩 */enable antiarabes*
 │➯🔩 */disable antiarabes*
 │➯🔩 */enable modoadmin*

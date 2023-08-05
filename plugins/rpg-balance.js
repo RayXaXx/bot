@@ -6,10 +6,10 @@ let name = conn.getName(who)
 m.reply(`╭「➻❥RɑyXɑXx-BOT➻❥」
 │💰 *𝐁𝐀𝐋𝐀𝐍𝐂𝐄* 
 │┈┈┈┈┈┈┈┈┈┈┈┈┈
-│➯‣❏ *✨*𝙽𝚘𝚖𝚋𝚛𝚎:* ${name}
+│➯‣❏ *✨*𝙽𝚘𝚖𝚋𝚛𝚎:* ${taguser}
 │➯‣❏ *💎𝙳𝚒𝚊𝚖𝚊𝚗𝚝𝚎𝚜:* ${global.db.data.users[who].limit}💎
 │➯‣❏ *💵dolares* ${global.db.data.users[who].joincount}
-│➯‣❏ *♦️ʜᴀᴅᴇs-ᴄᴏɪɴs* ${global.db.data.users[who].money}
+│➯‣❏ *♦️RayXaXx-ᴄᴏɪɴs* ${global.db.data.users[who].money}
 │➯‣❏ *🧿Exp* ${global.db.data.users[who].exp}
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
