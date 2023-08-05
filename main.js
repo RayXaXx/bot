@@ -107,11 +107,11 @@ getMessage: async (key) => {
 if (store) {
 const msg = await store.loadMessage(key.remoteJid, key.id)
 return msg.message || undefined }
-return { conversation: "hello, i'm OFC-YOVANI" }},   
+return { conversation: "hello, i'm RayXaXx" }},   
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['RayXaXx','Safari','1.0.0'],
+browser: ['RayXaXx-BOT','Safari','1.0.0'],
 version,
 defaultQueryTimeoutMs: undefined    
 }
@@ -237,14 +237,14 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '-------------------------------------------------\n©RɑyXɑXx-BOT\n│▢๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user\n│▢♦️𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳@\n│▢🤴ᩭ✎𝙽Ú𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁\n│▢📔ᩭ✎http://wa.me/51902061233\n│▢📚ᩭ✎𝙴𝙽 𝙴𝚂𝚃𝙴 𝙶𝚁𝚄𝙿𝙾 𝙿𝚄𝙴𝙳𝙴𝚂 𝙴𝙽𝙲𝙾𝙽𝚃𝚁𝙰𝚁\n│▢🍀ᩭ✎𝙰𝙼𝙸𝚂𝚃𝙰𝙳𝙴𝚂\n│▢🤝ᩭ✎𝙰𝙼𝙸𝙶𝙾𝚂\n│▢📚ᩭ✎𝙳𝙴𝚂𝙼𝙰𝙳𝚁𝙴\n│▢😇ᩭ✎𝙲𝙾𝚃𝙾𝚁𝚁𝙴𝙾 𝚈 𝙼Á𝚂\n│▢⁉️ᩭ✎𝙰𝚅𝙸𝚂𝙾 𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃𝙴:\n𝙿𝚘𝚛 𝚏𝚊𝚟𝚘𝚛 𝙻𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘 𝚙𝚊𝚛𝚊 𝚚𝚞𝚎 𝚎𝚟𝚒𝚝𝚎𝚜 𝚜𝚎𝚛 𝚎𝚕𝚒𝚖𝚒𝚗𝚊𝚍𝚘 𝚢 𝚎𝚟𝚒𝚝𝚎𝚜 𝚝𝚎𝚗𝚎𝚛 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚊𝚜 𝚌𝚘𝚗 𝚌𝚛𝚎𝚊𝚍𝚘𝚛 𝚍𝚎𝚕 𝚐𝚛𝚞\n@desc\n🌱𝐎𝐅𝐂 𝐘𝐎𝐕𝐀𝐍𝐈\n-------------------------------------------------'
+conn.welcome = '-------------------------------------------------\n©RɑyXɑXx-BOT\n│▢๖ۣۜۜ͜͡𝐇𝐨𝐥𝐚ঔৣֳ᷌᷈͜͡ @user\n│▢♦️Welcome to the group\n¿Te\x20estafaron?\x20O\x20¿Quieres\x20saber\x20los\x20datos\x20de\x20una\x20persona?\n\nTe\x20ofrezco\x20servicio\x20de\x20Doxeo\n\nConsiste\x20en\x20revelar\x20información\x20identificadora\x20de\x20una\x20persona,\x20como\x20su\x20nombre\x20real,\x20dirección\x20particular,\x20lugar\x20de\x20trabajo,\x20teléfonos,\x20datos\x20financieros\x20nombres\x20de\x20padre,\x20madre,\x20hermanos,\x20etc.\n\n¿Necesitas\x20ayuda\x20con\x20tus\x20trámites?\nEntrego\x20de\x20manera\x20inmediata\x20los\x20siguientes\x20documentos:\n\nAntecedentes\x20Policiales\nAntecedentes\x20Penales\nAntecedentes\x20Judiciales\nFicha\x20Reniec\nCertificado\x20inscripción\x20C4\n#Borramos\x20RQ\n#Borramos\x20Denuncias\x20\n#Borramos\x20papeletas\x20tránsito\n#Borramos\x20deudas\x20vencidas\n#Borramos\x20Préstamos\x20de\x20bancos\nEstos\x20trabajos\x20son\x20con\x20100%\x20discreción\x20si\x20no\x20estás\x20interesado\x20no\x20hable\x20ya\x20que\x20será\x20bloqueado.\n\nAtte:\x20RayXaXx\x20🔥\n🪀\x20WhatsApp\nWa.me/+51902062333\n-------------------------------------------------'
 conn.bye = '-------------------------------------------------\n@user\n𝐒𝐚𝐥𝐢ó 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐧𝐢 𝐦𝐨𝐝𝐨 𝐪𝐮𝐞 𝐭𝐞 𝐯𝐚𝐲𝐚 𝐛𝐢𝐞𝐧 𝐇𝐚𝐬𝐭𝐚 𝐥𝐚 𝐩𝐫ó𝐱𝐢𝐦𝐚 𝐪𝐮𝐞 𝐃𝐢𝐨𝐬 𝐭𝐞 𝐛𝐞𝐧𝐝𝐢𝐠𝐚🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\n𝐎𝐅𝐂 𝐘𝐎𝐕𝐀𝐍𝐈☘\n-------------------------------------------------'
-conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂\n\n*ADMINS GROUP JOINS!!*'
-conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!\n\n*ABANDONED THE ADMIN GROUP*'
+conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂*\n\n*ADMINS GROUP JOINS!!*'
+conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*\n\n*ABANDONED THE ADMIN GROUP*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
-conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
+conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
 conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n\n\n*GROUP PHOTO HAS BEEN CHANGED*'
-conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
+conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)

@@ -4,16 +4,16 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51902061233', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
-  ['51902061233', '𝙾𝙵𝙲 𝚈𝙾𝚅𝙰𝙽𝙸', true],
+  ['51902061233', '©RɑyXɑXx', true],
+  ['51902061233', '©RɑyXɑXx', true],
 ]
-global.suittag =['5212412477467']
+global.suittag =['51902061233']
 global.mods = []
-global.prems = ['5212412474767'], 
+global.prems = ['51902061233'], 
 global.prems = ['51902061233'],
 
-global.packname = '©RɑyXɑXx-BOT'
-global.author = '©RɑyXɑXx'
+global.packname = '\n\n\n\n\n\n\n\n\n\n\n\n©RɑyXɑXx'
+global.author = '\n\n\n\n\n\n\n\n\n\n\n\ndomina'
 global.vs = '1.10.90'
 global.version = vs
 global.gt = '©RɑyXɑXx-BOT'
@@ -24,28 +24,28 @@ global.ig = 'https://www.instagram'
 global.hadesig = ig
 global.md = 'https://github.com/RayXaXx/bot.git'
 global.botxdf = md
-global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXZkt'
+global.nn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXHjYk'
 global.nngrupo = nn
-global.nnn = 'https://chat.whatsapp.com/DDm7HC6e5MF9qcdLqB22RQ'
+global.nnn = 'https://chat.whatsapp.com/KlAYxPxLAkSGOyZxeXXHjYk'
 global.nnngrupo = nnn
 global.paypal = 'https://pay'
 global.donar = paypal
-global.rg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
+global.rg = '🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨'
 global.resultado = rg
-global.ag = '*⚠️ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ⚠️*'
+global.ag = '⚠️ᴀᴅᴠᴇʀᴛᴇɴᴄɪᴀ⚠️'
 global.advertencia = ag
-global.iig = '*📌ɪɴғᴏʀᴍᴀᴄɪᴏɴ*✨'
+global.iig = '📌ɪɴғᴏʀᴍᴀᴄɪᴏɴ✨'
 global.informacion = iig
-global.fg = '*❌ʟᴏ sᴇɴᴛɪᴍᴏs sᴇ ʜᴀ ɢᴇɴᴇʀᴀᴅᴏ ᴜɴ ᴇʀʀᴏʀ ᴠᴜᴇʟᴠᴇ ɪɴᴛᴇɴᴛᴀʀ❌*'
+global.fg = '❌ʟᴏ sᴇɴᴛɪᴍᴏs sᴇ ʜᴀ ɢᴇɴᴇʀᴀᴅᴏ ᴜɴ ᴇʀʀᴏʀ ᴠᴜᴇʟᴠᴇ ɪɴᴛᴇɴᴛᴀʀ❌'
 global.fallo = fg
-global.mg = '*❗ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ʟᴏ ʜᴀ ᴜsᴀᴅᴏ ɪɴᴄᴏʀʀᴇᴄᴛᴀᴍᴇɴᴛᴇ*'
+global.mg = '❗ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ʟᴏ ʜᴀ ᴜsᴀᴅᴏ ɪɴᴄᴏʀʀᴇᴄᴛᴀᴍᴇɴᴛᴇ'
 global.mal = mg
-global.eeg = '*📩ˢᵁ ᴿᴱᴾᴼᴿᵀᴱ ᴴᴬ ˢᴵᴰᴼ ᴱᴺⱽᴵᴬᴰᴼ📩*'
+global.eeg = '📩ˢᵁ ᴿᴱᴾᴼᴿᵀᴱ ᴴᴬ ˢᴵᴰᴼ ᴱᴺⱽᴵᴬᴰᴼ📩'
 global.envio = eeg
-global.eg = '*🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨*'
+global.eg = '🍀ʀᴇsᴜʟᴛᴀᴅᴏ ᴇɴᴄᴏɴᴛʀᴀᴅᴏ✨'
 global.exito = eg
 
-global.wm = '©RɑyXɑXx\n©RɑyXɑXx-BOT'
+global.wm = '©RɑyXɑXx-BOT'
 global.igfg = '©RɑyXɑXx-BOT'
 global.wait = '⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱'
 
