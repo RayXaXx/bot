@@ -9,7 +9,7 @@ let text = `╭─「➻❥ *owner* ➻❥」
 │➯Wa.me/5212411347465 (CREADOR)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA` },
+'document': { url: `https://github.com/RayXaXx/bot` },
 'mimetype': `application/${document}`,
 'fileName': `⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍`,
 'fileLength': 99999999999999,
@@ -18,7 +18,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA',
+'mediaUrl': 'https://github.com/RayXaXx/bot',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
