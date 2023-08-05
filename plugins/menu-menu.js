@@ -49,7 +49,6 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯📌 *bye @tag*
 │➯📌 *.infobot <estado del bot>*
 │➯📌 *.hidetag*
-│➯📌 *.delete elimina mensajes del bot*
 │➯📌 *.del*
 │➯📌 *.link link de tu grupo*
 │➯📌 *.advertir*
@@ -115,7 +114,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🎮 *Juegos* 🎮❥」
-│➯🎮 *.ttt juego michi
+│➯🎮 *.ttt juego michi*
 │➯🎮 *.juego piedra/papel/tijera*
 │➯🎮 *.acertijo*
 ︎╰───────────────╯
@@ -138,7 +137,6 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯👁️‍🗨️ *.resetlink*
 │➯👁️‍🗨️ *.banchat banea el chat*
 │➯👁️‍🗨️ *.unbanchat desbanea el chat*
-│➯👁️‍🗨️ *.grupo abrir/cerrar*
 │➯👁️‍🗨️ *.addcmd*
 │➯👁️‍🗨️ *.delcmd*
 │➯👁️‍🗨️ *.listcmd*

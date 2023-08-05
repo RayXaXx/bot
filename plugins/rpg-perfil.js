@@ -14,7 +14,7 @@ let username = conn.getName(who)
 let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
 let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
-│➯ *𝙽𝙾𝙼𝙱𝚁𝙴:*  ${taguser}
+│➯ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
 │➯ *🌐𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
 │➯ *Rango:* ${role}
 │➯ *✳️️Nivel:* ${level}

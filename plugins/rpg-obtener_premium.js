@@ -33,9 +33,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
@@ -63,9 +63,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT   
@@ -91,9 +91,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT  
@@ -119,9 +119,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT     
@@ -148,9 +148,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT   
@@ -176,9 +176,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
@@ -205,9 +205,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT    
@@ -234,9 +234,9 @@ if (now < user.premiumTime) user.premiumTime += tiempo
 else user.premiumTime = now + tiempo
 user.premium = true
 const imgpre = [ 
-'https://i.imgur.com/aOU8mzP.jpg', 
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg', 
 'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg',
-'https://i.imgur.com/jRA9pwD.jpeg'];
+'https://i.ibb.co/3rQfcqY/LOGO-ACTUAL-RAYXAXX.jpg'];
 
 await conn.reply(m.chat, `╭─────°.♡.°‧─────
 │©RɑyXɑXx-BOT  
