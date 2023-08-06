@@ -1484,7 +1484,7 @@ global.dfail = (type, m, conn) => {
        restrict: 'Este comando esta inabilitado por el dueño del bot'
        }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] *NOTIFICACION*', body: '©RayXaXx-BOT', thumbnail: imagen6, sourceUrl: '©RayXaXx' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] NOTIFICACION', body: '©RayXaXx-BOT', thumbnail: imagen6, sourceUrl: '©RayXaXx' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
