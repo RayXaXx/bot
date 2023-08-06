@@ -46,7 +46,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「❥🌟 *Grupos* 🌟❥」
 │➯📌 *.welcome @tag*
-│➯📌 *bye @tag*
+│➯📌 *.bye @tag*
 │➯📌 *.infobot <estado del bot>*
 │➯📌 *.hidetag*
 │➯📌 *.del*
@@ -137,6 +137,7 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯👁️‍🗨️ *.resetlink*
 │➯👁️‍🗨️ *.banchat banea el chat*
 │➯👁️‍🗨️ *.unbanchat desbanea el chat*
+│➯👁️‍🗨️ *.comangrupos*
 │➯👁️‍🗨️ *.addcmd*
 │➯👁️‍🗨️ *.delcmd*
 │➯👁️‍🗨️ *.listcmd*

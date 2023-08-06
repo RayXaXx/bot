@@ -41,8 +41,6 @@ let str = `╭「➻❥RɑyXɑXx-BOT➻❥」
 │➯🔩 */disable anticall*
 │➯🔩 */enable simsimi*
 │➯🔩 */disable simsimi*
-│➯🔩 */enable modohorny*
-│➯🔩 */disable modohorny*
 │➯🔩 */enable antilink*
 │➯🔩 */disable antilink*
 │➯🔩 */enable antilink2*
