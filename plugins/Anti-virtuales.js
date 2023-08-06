@@ -36,7 +36,7 @@ global.db.data.users[m.sender].banned = true
 m.reply(`*[❗]SOLO QUIERO PERUANOS EN ESTE GRUPO, SERAS ELIMINADO.*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')} 
 
-if (m.sender.startsWith('1' || '1')) {
+if (m.sender.startsWith('59' || '59')) {
 global.db.data.users[m.sender].banned = true
 m.reply(`*[❗]SOLO QUIERO PERUANOS EN ESTE GRUPO, SERAS ELIMINADO.*`)
 await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')}
