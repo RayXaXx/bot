@@ -4,9 +4,9 @@ import ytdl from 'ytdl-core'
 import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
-if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗] NOMBRE DE TU BUSQUEDAY* `
+if (!text) throw ` *[❗𝐈𝐍𝐅𝐎❗] NOMBRE DE TU PEDIDO*\nEJEMPLO #play jon z feliz\nEJEMPLO #play2 parodia baby `
 try {
-await m.reply(` *⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
+await m.reply(` *⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* `)
 await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
 const yt_play = await search(args.join(" "))
 let additionalText = ''
