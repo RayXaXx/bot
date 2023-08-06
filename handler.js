@@ -1472,19 +1472,19 @@ export async function deleteUpdate(message) {
 
 global.dfail = (type, m, conn) => {
     let msg = { 
-       rowner: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴱˡ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
-       owner: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴱˡ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
-       mods: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴹᵒᵈᵉʳᵃᵈᵒʳᵉˢ ʸ ᴱˡ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
-       premium: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ᴸᵒˢ ᵁˢᵘᵃʳⁱᵒˢ ᴾʳᵉᵐⁱᵘᵐ ʸ ᴱˡ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ',
-       group: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴱⁿ ᴳʳᵘᵖᵒˢ',
-       private: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴱⁿ ᴱˡ ᶜʰᵃᵗ ᴾʳⁱᵛᵃᵈᵒ ᴰᵉˡ ᴮᵒᵗ',
-       admin: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ˢᵒˡᵒ ᴾᵘᵉᵈᵉ ˢᵉʳ ᵁᵗⁱˡⁱᶻᵃᵈᵒ ᴾᵒʳ ˡᵒˢ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳᵉˢ ᴰᵉˡ ᴳʳᵘᵖᵒˢ',
-       botAdmin: 'ᴾᵃʳᵃ ᴾᵒᵈᵉʳ ᵁˢᵃʳ ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢ ᴺᵉᶜᵉˢᵃʳⁱᵒ Qᵘᵉ ᴱˡ ᴮᵒᵗ ˢᵉᵃ ᴬᵈᵐⁱⁿⁱˢᵗʳᵃᵈᵒʳ ʸ ᴬᶜᶜᵉᵈᵉʳ ᴬᵈᵐⁱⁿ ᴬ ᴱˢᵗᵉ ᴺᵘᵐᵉʳᵒ',
+       rowner: 'Este comando solo puede ser utilizado por el dueño del bot',
+       owner: 'Este comando solo puede ser utilizado por el dueño del bot',
+       mods: 'Este comando solo puede ser utilizado por moderadores y el dueño del bot',
+       premium: 'Este comando solo puede ser utilizado por usuarios Premium y el dueño del bot',
+       group: 'Este comando solo puede ser utilizado en grupos',
+       private: 'Este comando solo puede ser usado en el chat privado del bot',
+       admin: 'Este comando solo puede ser usado por administradores',
+       botAdmin: 'Para poder usar este comando es necesario que el bot sea administrador',
        unreg: '✨ᴴᵒˡᵃ ᵇⁱᵉⁿᵛᵉⁿⁱ@ ᵃ RayXaXx-BOT',
-       restrict: 'ᴱˢᵗᵉ ᶜᵒᵐᵃⁿᵈᵒ ᴱˢᵗᵃ ᴿᵉˢᵗʳⁱⁿᵍⁱᵈᵒ ᴾᵒʳ ᴰᵉˢⁱᶜⁱᵒⁿ ᴰᵉˡ (ᵒʷⁿᵉʳ) ᴰᵉˡ ᴮᵒᵗ'
+       restrict: 'Este comando esta inabilitado por el dueño del bot'
        }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝒩𝒪𝒯𝐼𝐹𝐼𝒞𝒜𝒞𝐼𝒪𝒩', body: '©RayXaXx-BOT', thumbnail: imagen6, sourceUrl: '©RayXaXx' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] *NOTIFICACION*', body: '©RayXaXx-BOT', thumbnail: imagen6, sourceUrl: '©RayXaXx' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
