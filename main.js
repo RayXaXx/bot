@@ -239,12 +239,12 @@ conn.ev.off('creds.update', conn.credsUpdate)
   
 conn.welcome = '-------------------------------------------------\nHola @user\nWelcome to the group\n¿Te estafaron? O ¿Quieres saber los datos de una persona?\n\nTe ofrezco servicio de Doxeo\n\nConsiste en revelar información identificadora de una persona, como su nombre real, dirección particular, lugar de trabajo, teléfonos, datos financieros nombres de padre, madre, hermanos, etc.\n🪀 *WhatsApp*\n*Wa.me/+51902061233*\n\n¿Necesitas ayuda con tus trámites?\nEntrego de manera inmediata los siguientes documentos:\n\nAntecedentes Policiales\nAntecedentes Penales\nAntecedentes Judiciales\nFicha Reniec\nCertificado inscripción C4\n#Borramos y ponemos RQ\n#Borramos y ponemos Denuncias \n#Borramos papeletas tránsito\n#Borramos deudas vencidas\n#Borramos Préstamos de bancos\n#Certificado estudios básicos\nEstos trabajos son con 100% discreción si no estás interesado no hable ya que será bloqueado.\n\nAtte: RayXaXx 🔥\n-------------------------------------------------'
 conn.bye = '-------------------------------------------------\n@user\nLamentamos no aver llamado tu atencion, te estarenos esperando....\n-------------------------------------------------'
-conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂\n\n*ADMINS GROUP JOINS!!*'
-conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!\n\n*ABANDONED THE ADMIN GROUP*'
+conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂*\n\n*ADMINS GROUP JOINS!!*'
+conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*\n\n*ABANDONED THE ADMIN GROUP*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
-conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
+conn.sSubject = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙴𝙻 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n*THE NAME OF THE GROUP HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙾 𝙽𝙾𝙼𝙱𝚁𝙴:* @subject'
 conn.sIcon = '*𝚂𝙴 𝙷𝙰 𝙲𝙰𝙼𝙱𝙸𝙰𝙳𝙾 𝙻𝙰 𝙵𝙾𝚃𝙾 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n\n\n*GROUP PHOTO HAS BEEN CHANGED*'
-conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
+conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n\n*THE GROUP LINK HAS BEEN UPDATED*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
