@@ -11,7 +11,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
     conn.sendPresenceUpdate('composing', m.chat);
     const chgptdb = global.chatgpt.data.users[m.sender];
     chgptdb.push({role: 'user', content: text});
-    const config = {method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key}, data: JSON.stringify({'model': 'gpt-3.5-turbo', 'messages': [{role: 'system', content: 'Actuaras como un Bot de WhatsApp el cual fue creado por Ofc/Yovani, tu seras HADES-OMEGA'}, ...chgptdb]})};
+    const config = {method: 'post', url: 'https://api.openai.com/v1/chat/completions', headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + global.openai_key}, data: JSON.stringify({'model': 'gpt-3.5-turbo', 'messages': [{role: 'system', content: 'Actuaras como un Bot de WhatsApp el cual fue creado por Ofc/Yovani, tu seras RayXaXx-BOT'}, ...chgptdb]})};
     const response = await axios(config);
     chgptdb.push({role: 'assistant', content: response.data.choices[0].message.content});
     if (response.data.choices[0].message.content == 'error' || response.data.choices[0].message.content == '' || !response.data.choices[0].message.content) return XD; // causar error undefined para usar otra api
@@ -60,7 +60,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
             } catch {
               try {
                 conn.sendPresenceUpdate('composing', m.chat);
-                const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Ofc/Yovani, tu seras HADES-OMEGA`;
+                const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Ofc/Yovani, tu seras RayXaXx-BOT`;
                 const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=fg-dylux`);
                 const fgjson1 = await fgapi1.json();
                 if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
