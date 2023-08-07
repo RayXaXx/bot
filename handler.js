@@ -1379,7 +1379,7 @@ if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 
  let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
      if (responseb[0].status === "404") return 
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
-this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} ᴇɴ ᴇsᴛᴇ ɢʀᴜᴘᴏ ɴᴏ sᴇ ᴘᴇʀᴍɪᴛᴇɴ ɴᴜᴍᴇʀᴏs ᴀʀᴀʙᴇs ᴏ ʀᴀʀᴏs, ᴘᴏʀ ʟᴏ ϙᴜᴇ sᴇ ᴛᴇ sᴀᴄᴀʀᴀ ᴅᴇʟ ɢʀᴜᴘᴏ*`, mentions: [user] }, { quoted: fkontak2 });          
+this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} En este grupo no se permiten números que no sean de Perú, por lo tanto serás eliminado.*`, mentions: [user] }, { quoted: fkontak2 });          
 return    
 }    
 			    
