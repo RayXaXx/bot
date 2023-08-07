@@ -4,13 +4,13 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51902061233', '©RɑyXɑXx', true],
-  ['51902061233', '©RɑyXɑXx', true],
+  ['19703726995', '©RɑyXɑXx', true],
+  ['19703726995', '©RɑyXɑXx', true],
 ]
-global.suittag =['51902061233']
+global.suittag =['19703726995']
 global.mods = []
-global.prems = ['51902061233'], 
-global.prems = ['51902061233'],
+global.prems = ['19703726995'], 
+global.prems = ['19703726995'],
 
 global.packname = '\n\n\n\n\n\n\n\n\n\n\n\n©RɑyXɑXx'
 global.author = '\n\n\n\n\n\n\n\n\n\n\n\ndomina'
