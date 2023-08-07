@@ -1383,7 +1383,7 @@ this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} En este grupo no se 
 return    
 }    
 			    
-this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) 
+this.sendFile(id, apii.data, '', text, null, false, { mentions: [user] }) 
                    }
                 }
             }
