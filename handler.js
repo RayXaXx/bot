@@ -922,7 +922,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
                 if (!('detect' in chat)) chat.detect = true
 		if (!('detect2' in chat)) chat.detect2 = false    
                 if (!('sWelcome' in chat)) chat.sWelcome = ''
-                if (!('sByhe' in chat)) chat.sBgye = ''
+                if (!('sBye' in chat)) chat.sBye = ''
                 if (!('sPromote' in chat)) chat.sPromote = ''
                 if (!('sDemote' in chat)) chat.sDemote = ''
                 if (!('delete' in chat)) chat.delete = true
@@ -947,7 +947,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
                     detect: true,
 		    detect2: false,	
                     sWelcome: '',
-                    sBjye: '',
+                    sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
@@ -1357,7 +1357,7 @@ export async function participantsUpdate({ id, participants, action }) {
     let botTt = global.db.data.settings[conn.user.jid] || {}
     let text = ''
     switch (action) {
-        case 'add':
+        /*case 'add':
         case 'remove':
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
@@ -1373,7 +1373,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
                     const isBotAdminNn = botTt2?.admin === "admin" || false
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
-                              (chat.sBjye || this.byge || conn.bgye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
+                              (chat.sBye || this.bye || conn.bye || ' @user!')).replace('@user', '@' + user.split('@')[0])
 			    
 if (userPrefix && chat.antiArab && botTt.restrict && isBotAdminNn && action === 'add') {
  let responseb = await this.groupParticipantsUpdate(id, [user], 'remove')
@@ -1383,11 +1383,11 @@ this.sendMessage(id, { text: `*[❗] @${user.split('@')[0]} En este grupo no se 
 return    
 }    
 			    
-this.sendFile(id, apii.data, '', text, null, false, { mentions: [user] }) 
+this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }) 
                    }
                 }
             }
-            break
+            break*/
         case 'promote':
         case 'daradmin':
         case 'darpoder':
