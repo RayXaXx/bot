@@ -238,7 +238,7 @@ conn.ev.off('creds.update', conn.credsUpdate)
 }
   
 conn.welcome = '-------------------------------------------------\nHola @user\nWelcome to the group\n\n*¿Te estafaron? O ¿Quieres saber los datos de una persona?*\n\nTe ofrezco servicio de Doxeo\n\nConsiste en revelar información identificadora de una persona, como su nombre real, dirección particular, lugar de trabajo, teléfonos, datos financieros nombres de padre, madre, hermanos, etc.\n\n🪀 WhatsApp\n*Wa.me/+19703726995*\n\n*¿Necesitas ayuda con tus trámites?*\n\nEntrego de manera inmediata los siguientes documentos:\n\n•Antecedentes Policiales\n•Antecedentes Penales\n•Antecedentes Judiciales\n•Ficha Reniec-C4\n•Borramos y ponemos RQ\n•Borramos y ponemos Denuncias\n•Borramos papeletas tránsito\n•Borramos deudas vencidas\n•Borramos Préstamos de bancos\n•Certificado estudios básicos'
-conn.byv = '-------------------------------------------------\n@user\nLamentamos no haber llamado tu atencion, te estarenos esperando....\n-------------------------------------------------'
+conn.byv = '⚠️-ALERTA-⚠️\n\nEl usuario @user salió del grupo'
 conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂*\n\n*ADMINS GROUP JOINS!!*'
 conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!*\n\n*ABANDONED THE ADMIN GROUP*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'

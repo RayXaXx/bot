@@ -13,7 +13,7 @@ global.prems = ['19703726995'],
 global.prems = ['19703726995'],
 
 global.packname = '\n\n\n\n\n\n\n\n\n\n\n\n©RɑyXɑXx'
-global.author = '\n\n\n\n\n\n\n\n\n\n\n\ndomina'
+global.author = 'Tu bot con elegancia'
 global.vs = '1.10.90'
 global.version = vs
 global.gt = '©RɑyXɑXx-BOT'
