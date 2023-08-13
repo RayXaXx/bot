@@ -37,5 +37,5 @@ handler.help = ['levelup']
 handler.tags = ['xp']
 
 handler.command = ['nivel', 'lvl', 'levelup', 'level'] 
-handler.register = false
+handler.register = true
 export default handler

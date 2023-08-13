@@ -7,7 +7,7 @@ global.db.data.users[m.sender].limit += d * 1
 let time = global.db.data.users[m.sender].lastdiamantes + 600000
 if (new Date - global.db.data.users[m.sender].lastdiamantes < 600000) throw `ʏᴀ ʜᴀs ᴍɪʀᴀᴅᴏ ᴅɪᴀᴍᴀɴᴛᴇs ᴇsᴘᴇʀᴀ${msToTime(time - new Date())} ᴘᴀʀᴀ ᴠᴏʟᴠᴇʀ ᴀ ᴍɪɴᴀʀ ⛏️`
 
-m.reply(`[ 💎 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${minar2} ${d} 𝙳𝙸𝙰𝙼𝙰𝙽𝚃𝙴𝚂`)
+m.reply(`[ 💎 ] 𝙶𝚎𝚗𝚒𝚊𝚕, 𝚖𝚒𝚗𝚊𝚜𝚝𝚎 ${minar2} ${d} Diamantes`)
 global.db.data.users[m.sender].lastdiamantes = new Date * 1  
 
 }

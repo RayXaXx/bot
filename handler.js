@@ -1282,7 +1282,7 @@ if (botSpam.antispam && m.text && user && user.lastCommandTime && (Date.now() - 
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' 𝐃𝐈𝐀𝐌𝐀𝐍𝐓𝐄 💎 𝐔𝐒𝐀𝐃𝐎')
+                        m.reply(+m.limit + ' Diamante 💎 usado')
                 }
                 break
             }
