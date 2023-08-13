@@ -239,12 +239,12 @@ conn.ev.off('creds.update', conn.credsUpdate)
   
 conn.welcome = '-------------------------------------------------\nHola @user\n\n*¿Te estafaron? O ¿Quieres saber los datos de una persona?*\n\nTe ofrezco servicio de Doxeo\n\nConsiste en revelar información identificadora de una persona, como su nombre real, dirección particular, lugar de trabajo, teléfonos, datos financieros nombres de padre, madre, hermanos, etc.\n\n🪀 WhatsApp\nWa.me/+51937161497\n🪀 Group WhatsApp\nhttps://chat.whatsapp.com/Jx6o9WXaTqDDO4ujZutz0C\n\nhttps://chat.whatsapp.com/EBmyxFPDyXAGnrkmkqM255\n\n*¿Necesitas ayuda con tus trámites?*\n\nEntrego de manera inmediata los siguientes documentos:\n\n•Antecedentes Policiales\n•Antecedentes Penales\n•Antecedentes Judiciales\n•Ficha Reniec-C4\n•Borramos y ponemos RQ\n•Borramos y ponemos Denuncias\n•Borramos papeletas tránsito\n•Borramos deudas vencidas\n•Borramos Préstamos de bancos\n•Certificado estudios básicos\n•Modificación de datos Reniec'
 conn.bye = '*¿Te estafaron? O ¿Quieres saber los datos de una persona?*\n\nTe ofrezco servicio de Doxeo\n\nConsiste en revelar información identificadora de una persona, como su nombre real, dirección particular, lugar de trabajo, teléfonos, datos financieros nombres de padre, madre, hermanos, etc.\n\n🪀 WhatsApp\nWa.me/+51937161497\n🪀 Group WhatsApp\nhttps://chat.whatsapp.com/Jx6o9WXaTqDDO4ujZutz0C\n\nhttps://chat.whatsapp.com/EBmyxFPDyXAGnrkmkqM255\n\n*¿Necesitas ayuda con tus trámites?*\n\nEntrego de manera inmediata los siguientes documentos:\n\n•Antecedentes Policiales\n•Antecedentes Penales\n•Antecedentes Judiciales\n•Ficha Reniec-C4\n•Borramos y ponemos RQ\n•Borramos y ponemos Denuncias\n•Borramos papeletas tránsito\n•Borramos deudas vencidas\n•Borramos Préstamos de bancos\n•Certificado estudios básicos\n•Modificación de datos Reniec'
-conn.spromote = ''
-conn.sdemote = ''
-conn.sDesc = ''
-conn.sSubject = ''
-conn.sIcon = ''
-conn.sRevoke = ''
+conn.spromote = 'owner RayXaXx'
+conn.sdemote = 'owner RayXaXx'
+conn.sDesc = 'owner RayXaXx'
+conn.sSubject = 'owner RayXaXx'
+conn.sIcon = 'owner RayXaXx'
+conn.sRevoke = 'owner RayXaXx'
 
 conn.handler = handler.handler.bind(global.conn)
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
